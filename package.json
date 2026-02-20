@@ -1,0 +1,36 @@
+{
+  "name": "compose-gen",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "compose-gen": "bin/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "cross-env NODE_ENV=development tsx src/cli/commands.ts"
+  },
+  "files": [
+    "dist",
+    "bin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nathanael-Rayapin/Compose-Gen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Nathanael-Rayapin/Compose-Gen/issues"
+  },
+  "homepage": "https://github.com/Nathanael-Rayapin/Compose-Gen#readme",
+  "dependencies": {
+    "commander": "^14.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
